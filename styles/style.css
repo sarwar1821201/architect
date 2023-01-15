@@ -152,5 +152,66 @@ nav ul li a{
     height: 40px;
     background: #FD6E0A;
     color:white;
-    border: 5px;
+    border-radius: 5px;
+}
+
+/*style third part */
+
+.third-part{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    gap:50px;
+}
+
+.third-part > div{
+    flex: 1;
+}
+
+.writing-part{
+    margin-left: 30px;
+    padding-left: 50px;
+}
+
+.features{
+    border-left: 4px solid orange;
+    padding-left: 10px;
+}
+
+.features-descripton{
+    margin-top: 15px;
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.interesting-part > div{
+    padding-left: 15px;
+    border: 1px solid whitesmoke;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 5px;    
+}
+
+.image-part{
+    margin-left: 20px;
+}
+
+.image-archi .img-edit{
+    height: 850px;
+}
+
+.button-experience{
+    width: 200px;
+    height: 100px;
+    background: #FD6E0A;
+    color:white;
+    border-radius: 5px;
+    margin-top: -250px;
+}
+
+.button-experience .time{
+    color:white;
+    font-weight: 700;
+    font-size: 30px;
 }
