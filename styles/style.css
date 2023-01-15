@@ -265,3 +265,36 @@ color: #727272;
     padding: 10px;
     border-radius: 5px;
 }
+
+
+/*sponsor style */
+.sponsonr-container{
+    margin-top: 70px;
+}
+
+.sponsor-content{
+   
+    text-align: center;
+}
+
+.sponsor-title{
+    color: #131313;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+
+ .sponsor-description{
+    margin-top: 20px;
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+.sponsor-company-name{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+ 
