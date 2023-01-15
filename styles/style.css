@@ -69,7 +69,11 @@ nav ul li a{
     margin-top: -10px;
 }
 
+.button-content{
+    margin: 0 auto;
+}
 .btn-primary{
+   /*
     color: #FFFFFF;
     font-weight: 700;
     font-size: 20px;
@@ -80,6 +84,14 @@ nav ul li a{
     width: 180px;
     border-radius: 5px;
     background: #FD6E0A;
+    */
+    color: #FFFFFF;
+    background: #FD6E0A;
+    font-weight: 700;
+    font-size: 20px;
+    height: 64px;
+    width: 180px;
+
 }
 
 .banner-img{
@@ -241,7 +253,12 @@ color: #727272;
     justify-content: space-around;
     margin-top: 80px;
     align-items: center;
+    transition: transform 2s linear;
    
+}
+
+.facts-icon-container:hover{
+    transform: rotate(30deg);
 }
 
 .facts-icon-container .icons-value{
