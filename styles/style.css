@@ -1,0 +1,156 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    width:100%;
+    box-sizing: border-box;
+}
+
+.header-container{
+    width: 100%;
+    height: 1000px;
+  /* position: relative;   */
+    background-color: rgba(255, 144, 14, 0.1);
+  
+}
+
+/*style on navbar */
+nav{
+    display: flex;
+    justify-content: space-between; 
+    
+       
+}
+
+.nav-title{
+    padding-left: 100px;
+    
+    font-weight: 700;
+font-size: 45px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap:30px;
+    margin-right: 100px;
+   
+}
+nav ul li{
+    list-style-type: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+.content-part{
+   /* position: absolute; */
+    width: 850px;
+    height: 220px;
+    margin-left: 350px;
+    margin-right: 400px;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.content-title{
+    font-size: 40px;
+     font-weight: 700;   
+}
+
+.content-description{
+   /* position: absolute; */
+    font-weight: 400;
+    font-size: 16;
+    color: #727272;
+    padding-left: 15px;
+    margin-top: -10px;
+}
+
+.btn-primary{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+     border:0;
+    padding-top: -20px;
+   margin: 0 700px;
+    height: 64px;
+    width: 180px;
+    border-radius: 5px;
+    background: #FD6E0A;
+}
+
+.banner-img{
+    
+  margin-top: 30px;
+}
+
+.banner-img .img-resize{
+     
+    width: 1000px;
+  height: 500px;  
+  margin-left: 250px;
+  margin-right: 100px;
+
+    
+}
+
+/* meeting part style */
+.meeting-container{
+    margin-top: 50px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.meeting-container > div{
+    flex:1;
+}
+
+.meeting-image{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    padding-left: 150px;
+    border-radius: 8px;
+}
+
+.meeting-image .image-size{
+    height: 250px;
+    width: 250px;
+}
+
+.meeting-content{
+    margin-top: 80px;
+    margin-left: 50px;
+}
+
+.meeting-title{
+    color:#727272;
+}
+
+.meeting-title .style-our{
+    color:#131313;
+}
+
+.meeting-title .special{
+    color:#FF900E;
+}
+
+.meeting-content .meeting-description{
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 15px;
+    padding-right: 50px;
+}
+
+.button-content{
+    width: 100px;
+    height: 40px;
+    background: #FD6E0A;
+    color:white;
+    border: 5px;
+}
