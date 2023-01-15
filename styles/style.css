@@ -297,4 +297,21 @@ color: #727272;
     display: flex;
     justify-content: space-around;
 }
+
+
+/*footer part */
+.footer-container{
+    height: 80px;
+    width: 900px ;
+    background-color: #FFF4E7;
+    border-radius: 8px;
+    margin-top: 100px;
+    margin-left: 300px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+     .footer-description .footer-container{
+        padding-top: 30px;
+     }
  
